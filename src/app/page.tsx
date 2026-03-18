@@ -119,6 +119,17 @@ export default function Home() {
           <p className="text-center text-teal-300 mt-2">
             {t.subtitle}
           </p>
+          <p className="text-center text-teal-400 mt-4 text-sm">
+            Data curated by{" "}
+            <a
+              href="https://twitter.com/gus_arifin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-300 hover:text-teal-200 underline font-medium"
+            >
+              @gus_arifin
+            </a>
+          </p>
         </div>
       </header>
 
